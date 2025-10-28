@@ -1,0 +1,129 @@
+:root {
+  --color-hero-section: #fef7f2;
+  --color-buttons: #2b1b12;
+  --color-body-secondary: #ddc7bb;
+  --color-text-primary: #2b1b12;
+  --color-text-primary-hover: #d08a61;
+  --color-text-secondary: #4f3527;
+}
+*{
+    color: var(--color-text-primary);
+}
+.bg-beige {
+  background-color: var(--color-hero-section);
+}
+.navbar-nav .nav-link:hover {
+  color: var(--color-text-primary-hover); 
+ 
+}
+
+.btn{
+    width: 120px;
+    background-color: var(--color-buttons);
+    color: white;
+}
+
+.btn:hover{
+    background-color: var(--color-text-primary-hover); 
+}
+.navbar .nav-item a i {
+  color: var(--color-text-primary);
+}
+.navbar .nav-item a:hover i {
+  color: var(--color-text-primary-hover);
+}
+
+.location-icon{
+  position:absolute;
+  top: 20%;
+  right: 20px;
+}
+.email-icon{
+  position:absolute;
+  top: 30%;
+  left: 20px;
+}
+.email{
+  padding-left: 39px;
+  background-color: var(--color-body-secondary);
+  height: 54px; 
+}
+
+.search{
+  position:absolute;
+  bottom: 10%;
+  left: 20%;
+}
+.search-box {
+
+    border-radius: 15px;         
+    padding: 3rem;            
+    background-color: var(--color-body-secondary);
+    max-width: 900px;    
+    margin: auto;     
+}
+.help-section, .PopularResidences-section, .chooseUs-section, .About-section, .contact-section{
+  margin-top: 8%;
+  margin-bottom: 9%;
+}
+.font{
+  color: var(--color-buttons);
+}
+.card, .footer{
+  background-color: var(--color-body-secondary);
+}
+.card:hover{
+  cursor: pointer;
+  background-color: var(--color-hero-section); 
+}
+.service ,.map, .document, .handshake{
+  background-color: var(--color-hero-section);
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-color: var(--color-text-primary);
+  border-radius: 50%;
+  display: inline-block;
+
+}
+.carousel-control-prev,.carousel-control-next{
+  position: static; 
+  opacity: 1; 
+}
+.client{
+  width: 70px; 
+  height: 70px; 
+}
+.bi-star-fill{
+  color: #FFC71E;
+}
+@media (max-width: 991px) {
+  .nav-icon{
+    margin-top: 2rem;  
+  }
+  .nav-icon-user{
+    margin-top: 1rem;  
+  }
+  .nav-icon-input .btn {
+    margin-top: 1rem;
+  }
+  .search {
+    position: static;
+    margin: 2rem ; 
+ 
+                  
+   
+  
+  }
+  .help-title{
+    margin-top: 4%;
+
+  }
+  .card{
+    margin-top: 5%;
+  }
+
+}
+
+
+
+
