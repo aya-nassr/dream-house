@@ -48,6 +48,10 @@
   background-color: var(--color-body-secondary);
   height: 54px; 
 }
+.btn-submit{
+  height: 54px; 
+  padding-top: 12px;
+}
 
 .search{
   position:absolute;
@@ -69,6 +73,9 @@
 .font{
   color: var(--color-buttons);
 }
+.font:hover{
+  color: var(--color-text-primary-hover);
+}
 .card, .footer{
   background-color: var(--color-body-secondary);
 }
@@ -84,6 +91,9 @@
   border-radius: 50%;
   display: inline-block;
 
+}
+.rooms{
+  margin-right: 9px;
 }
 .carousel-control-prev,.carousel-control-next{
   position: static; 
@@ -109,10 +119,6 @@
   .search {
     position: static;
     margin: 2rem ; 
- 
-                  
-   
-  
   }
   .help-title{
     margin-top: 4%;
@@ -121,6 +127,7 @@
   .card{
     margin-top: 5%;
   }
+ 
 
 }
 
